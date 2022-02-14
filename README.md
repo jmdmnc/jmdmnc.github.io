@@ -1,1 +1,1 @@
-# jmdmnc.github.io
+# http://jmdmnc.github.io
