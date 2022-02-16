@@ -72,7 +72,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: 	#ffa31a;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -89,7 +89,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: rgb(2, 134, 9);
+    background: #ffa31a;
 }
 .navbar .max-width{
     display: flex;
@@ -102,7 +102,13 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: firebrick;
+    color: 	#ffffff;
+    transition: all 0.3s ease;
+}
+.navbar .logo a span1{
+    background: #ffa31a;
+    color: 	black;
+    border-radius: 5px;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -121,7 +127,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: rgb(134, 194, 50);
+    color: 	#ffa31a;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -139,7 +145,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: #ffa31a;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -257,25 +263,25 @@ i.fa-tweeter-square{color: #38a1f3}
     font-size: 29px;
 }
 .home .home-content .text3-3 span{
-    color: firebrick;
+    color: 	#ffa31a;
     font-weight: 500;
 
 }
 
 .home .home-content a{
     display: inline-block;
-    background: rgb(134, 194, 50);
+    background: #ffa31a;
     color: #fff;
     font-size: 20px;
     padding: 6px 20px;
     margin-top: 10px;
     font-weight: 400;
     border-radius: 6px;
-    border: 5px solid rgb(134, 194, 50);
+    border: 5px solid 	#ffa31a;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: rgb(105, 129, 47);
+    color: 	#b67615;
     background: none;
 }
 
@@ -323,8 +329,18 @@ i.fa-instagram{color: #ff008c}
 
 
 /* about section styling */
+.about, .skills{
+    color:white;
+    background: #292929;
+}
+.about .title::before,
+.skills .title::before{
+    background: #fff;
+}
 .about .title::after{
-    content: "Me, Myself, and I";
+    background: #292929;
+    color: #ffa31a;
+    content: "Me, Myself, I";
 }
 .about .about-content .left{
     width: 45%;
@@ -344,7 +360,7 @@ i.fa-instagram{color: #ff008c}
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: crimson;
+    color: #ffa31a;
 }
 .about .about-content .right p{
     text-align: justify;
@@ -352,17 +368,18 @@ i.fa-instagram{color: #ff008c}
 .about .about-content .right a{
     display: inline-block;
     /* background: crimson; */
-    color: firebrick;
+    color: white;
     font-size: 15px;
     font-weight: 500;
     padding: 5px 20px;
     margin-top: 5px;
     border-radius: 6px;
-    border: 2px solid firebrick;
+    border: 2px solid #ffa31a;
+    background: #ffa31a;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: black;
+    color: #ffa31a;
     background: none;
 }
 
@@ -378,7 +395,8 @@ i.fa-instagram{color: #ff008c}
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide";
+    color: #ffa31a;
+    content: "In progress";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -390,7 +408,7 @@ i.fa-instagram{color: #ff008c}
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: crimson;
+    background: #ffa31a;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -400,7 +418,7 @@ i.fa-instagram{color: #ff008c}
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: crimson;
+    color: #ffa31a;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -415,6 +433,8 @@ i.fa-instagram{color: #ff008c}
 /* skills section styling */
 
 .skills .title::after{
+    background: #292929;
+    color: #ffa31a;
     content: "what i know";
 }
 .skills .skills-content .column{
@@ -430,18 +450,18 @@ i.fa-instagram{color: #ff008c}
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: crimson;
+    background: #ffa31a;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #ffa31a;
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: crimson;
+    color: #ffa31a;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -469,7 +489,7 @@ i.fa-instagram{color: #ff008c}
     height: 100%;
     left: 0;
     top: 0;
-    background: crimson;
+    background: #ffa31a;
 }
 .skills-content .right .html::before{
     width: 80%;
@@ -488,7 +508,7 @@ i.fa-instagram{color: #ff008c}
 }
 
 /* teams section styling */
-.teams .title::after{
+/* .teams .title::after{
     content: "who with me";
 }
 .teams .carousel .card{
@@ -548,10 +568,11 @@ i.fa-instagram{color: #ff008c}
 .owl-dot.active,
 .owl-dot:hover{
     background: crimson!important;
-}
+} */
 
 /* contact section styling */
 .contact .title::after{
+    color: #ffa31a;
     content: "get in touch";
 }
 .contact .contact-content .column{
@@ -578,7 +599,7 @@ i.fa-instagram{color: #ff008c}
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: #808080;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -642,7 +663,7 @@ i.fa-instagram{color: #ff008c}
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: crimson;
+  color: 	#ffa31a;
   background: none;
 }
 /* footer section styling */
@@ -653,7 +674,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: crimson;
+    color: 	#ffa31a;
     text-decoration: none;
 }
 footer span a:hover{
