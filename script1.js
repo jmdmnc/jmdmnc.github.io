@@ -250,10 +250,10 @@ window.addEventListener("DOMContentLoaded", function () {
 	  status.innerHTML = "Yieee Thank you!";
 	}
   
-	// function error() {
-	//   status.classList.add("error");
-	//   status.innerHTML = "Oops! There was a problem.";
-	// }
+	function error() {
+	  status.classList.add("error");
+	  status.innerHTML = "Oops! There was a problem.";
+	}
   
 	// handle the form submission event
   
